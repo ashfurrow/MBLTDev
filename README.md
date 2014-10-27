@@ -15,4 +15,4 @@ git submodule update --init
 ./submodules/ReactiveCocoa/script/bootstrap
 ```
 
-And open the main Xcode project. 
+And open the main Xcode workspace. 
