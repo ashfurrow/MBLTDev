@@ -16,3 +16,8 @@ git submodule update --init
 ```
 
 And open the main Xcode workspace. 
+
+Explanation
+----------------
+
+So basically this is a bare-bones setup for what an app using Swift with ReactiveCocoa would look like. Create a workspace with your app and add ReactiveCocoa and LlamaKit. You also have to have your app's target build against ReactiveCocoa and LlamaKit in order to work (at the moment). 
