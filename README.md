@@ -1,6 +1,18 @@
 MBLTDev
 =======
 
-Annotated playground for talk on functional programming in Swift at [MBLTDev 2014](http://mbltdev.ru).
+Demo of using ReactiveCocoa with Swift at [MBLTDev 2014](http://mbltdev.ru).
 
-Many thanks to [Jason Sandmeyer](https://github.com/jas) for his [Swift Playground Builder](https://github.com/jas/swift-playground-builder).
+Instructions
+----------------
+
+You'll ne to *clone* this repo, *not* download it's zip file. 
+
+```sh
+git clone https://github.com/AshFurrow/MBLTDev.git
+cd MBLTDev
+git submodule update --init
+./submodules/ReactiveCocoa/script/bootstrap
+```
+
+And open the main Xcode project. 
