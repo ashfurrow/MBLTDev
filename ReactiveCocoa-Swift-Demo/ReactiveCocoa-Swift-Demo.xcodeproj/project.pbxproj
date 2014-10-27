@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EB2659819FED42B00BE42D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2659719FED42B00BE42D1 /* AppDelegate.swift */; };
+		5EB2659D19FED42B00BE42D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2659B19FED42B00BE42D1 /* Main.storyboard */; };
+		5EB2659F19FED42B00BE42D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2659E19FED42B00BE42D1 /* Images.xcassets */; };
+		5EB265A219FED42B00BE42D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB265A019FED42B00BE42D1 /* LaunchScreen.xib */; };
+		5EB265AE19FED42B00BE42D1 /* ReactiveCocoa_Swift_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB265AD19FED42B00BE42D1 /* ReactiveCocoa_Swift_DemoTests.swift */; };
+		5EB265BF19FED6E900BE42D1 /* LlamaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB265BD19FED6E900BE42D1 /* LlamaKit.framework */; };
+		5EB265C019FED6E900BE42D1 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB265BE19FED6E900BE42D1 /* ReactiveCocoa.framework */; };
+		5EB265C319FED79B00BE42D1 /* ReactiveCocoaBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB265C219FED79B00BE42D1 /* ReactiveCocoaBindings.swift */; };
+		5EB265C519FED8DD00BE42D1 /* GestureRecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB265C419FED8DD00BE42D1 /* GestureRecognizerViewController.swift */; };
+		5EB265C719FEDB6A00BE42D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB265C619FEDB6A00BE42D1 /* LoginViewController.swift */; };
+		5EB265CF19FEDED700BE42D1 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB265CE19FEDED700BE42D1 /* NetworkViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EB265A819FED42B00BE42D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB2658A19FED42B00BE42D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB2659119FED42B00BE42D1;
+			remoteInfo = "ReactiveCocoa-Swift-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EB2659219FED42B00BE42D1 /* ReactiveCocoa-Swift-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactiveCocoa-Swift-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB2659619FED42B00BE42D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB2659719FED42B00BE42D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EB2659C19FED42B00BE42D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EB2659E19FED42B00BE42D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5EB265A119FED42B00BE42D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5EB265A719FED42B00BE42D1 /* ReactiveCocoa-Swift-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveCocoa-Swift-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB265AC19FED42B00BE42D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB265AD19FED42B00BE42D1 /* ReactiveCocoa_Swift_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveCocoa_Swift_DemoTests.swift; sourceTree = "<group>"; };
+		5EB265BD19FED6E900BE42D1 /* LlamaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LlamaKit.framework; path = "../submodules/ReactiveCocoa/External/LlamaKit/build/Debug-iphoneos/LlamaKit.framework"; sourceTree = "<group>"; };
+		5EB265BE19FED6E900BE42D1 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../../Library/Developer/Xcode/DerivedData/ReactiveCocoa-Swift-Demo-elkamcluvedkducxopcackprlrzh/Build/Products/Debug/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		5EB265C219FED79B00BE42D1 /* ReactiveCocoaBindings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReactiveCocoaBindings.swift; path = "../submodules/Swift-RAC-Macros/ReactiveCocoaBindings.swift"; sourceTree = "<group>"; };
+		5EB265C419FED8DD00BE42D1 /* GestureRecognizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureRecognizerViewController.swift; sourceTree = "<group>"; };
+		5EB265C619FEDB6A00BE42D1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5EB265CE19FEDED700BE42D1 /* NetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB2658F19FED42B00BE42D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB265BF19FED6E900BE42D1 /* LlamaKit.framework in Frameworks */,
+				5EB265C019FED6E900BE42D1 /* ReactiveCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB265A419FED42B00BE42D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EB2658919FED42B00BE42D1 = {
+			isa = PBXGroup;
+			children = (
+				5EB265C219FED79B00BE42D1 /* ReactiveCocoaBindings.swift */,
+				5EB2659419FED42B00BE42D1 /* ReactiveCocoa-Swift-Demo */,
+				5EB265C119FED70500BE42D1 /* Frameworks */,
+				5EB265AA19FED42B00BE42D1 /* ReactiveCocoa-Swift-DemoTests */,
+				5EB2659319FED42B00BE42D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EB2659319FED42B00BE42D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EB2659219FED42B00BE42D1 /* ReactiveCocoa-Swift-Demo.app */,
+				5EB265A719FED42B00BE42D1 /* ReactiveCocoa-Swift-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB2659419FED42B00BE42D1 /* ReactiveCocoa-Swift-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5EB2659719FED42B00BE42D1 /* AppDelegate.swift */,
+				5EB2659B19FED42B00BE42D1 /* Main.storyboard */,
+				5EB265C419FED8DD00BE42D1 /* GestureRecognizerViewController.swift */,
+				5EB265C619FEDB6A00BE42D1 /* LoginViewController.swift */,
+				5EB265CE19FEDED700BE42D1 /* NetworkViewController.swift */,
+				5EB2659E19FED42B00BE42D1 /* Images.xcassets */,
+				5EB265A019FED42B00BE42D1 /* LaunchScreen.xib */,
+				5EB2659519FED42B00BE42D1 /* Supporting Files */,
+			);
+			path = "ReactiveCocoa-Swift-Demo";
+			sourceTree = "<group>";
+		};
+		5EB2659519FED42B00BE42D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EB2659619FED42B00BE42D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EB265AA19FED42B00BE42D1 /* ReactiveCocoa-Swift-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB265AD19FED42B00BE42D1 /* ReactiveCocoa_Swift_DemoTests.swift */,
+				5EB265AB19FED42B00BE42D1 /* Supporting Files */,
+			);
+			path = "ReactiveCocoa-Swift-DemoTests";
+			sourceTree = "<group>";
+		};
+		5EB265AB19FED42B00BE42D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EB265AC19FED42B00BE42D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EB265C119FED70500BE42D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EB265BD19FED6E900BE42D1 /* LlamaKit.framework */,
+				5EB265BE19FED6E900BE42D1 /* ReactiveCocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB2659119FED42B00BE42D1 /* ReactiveCocoa-Swift-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB265B119FED42B00BE42D1 /* Build configuration list for PBXNativeTarget "ReactiveCocoa-Swift-Demo" */;
+			buildPhases = (
+				5EB2658E19FED42B00BE42D1 /* Sources */,
+				5EB2658F19FED42B00BE42D1 /* Frameworks */,
+				5EB2659019FED42B00BE42D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReactiveCocoa-Swift-Demo";
+			productName = "ReactiveCocoa-Swift-Demo";
+			productReference = 5EB2659219FED42B00BE42D1 /* ReactiveCocoa-Swift-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EB265A619FED42B00BE42D1 /* ReactiveCocoa-Swift-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB265B419FED42B00BE42D1 /* Build configuration list for PBXNativeTarget "ReactiveCocoa-Swift-DemoTests" */;
+			buildPhases = (
+				5EB265A319FED42B00BE42D1 /* Sources */,
+				5EB265A419FED42B00BE42D1 /* Frameworks */,
+				5EB265A519FED42B00BE42D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB265A919FED42B00BE42D1 /* PBXTargetDependency */,
+			);
+			name = "ReactiveCocoa-Swift-DemoTests";
+			productName = "ReactiveCocoa-Swift-DemoTests";
+			productReference = 5EB265A719FED42B00BE42D1 /* ReactiveCocoa-Swift-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EB2658A19FED42B00BE42D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ash Furrow";
+				TargetAttributes = {
+					5EB2659119FED42B00BE42D1 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					5EB265A619FED42B00BE42D1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 5EB2659119FED42B00BE42D1;
+					};
+				};
+			};
+			buildConfigurationList = 5EB2658D19FED42B00BE42D1 /* Build configuration list for PBXProject "ReactiveCocoa-Swift-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EB2658919FED42B00BE42D1;
+			productRefGroup = 5EB2659319FED42B00BE42D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB2659119FED42B00BE42D1 /* ReactiveCocoa-Swift-Demo */,
+				5EB265A619FED42B00BE42D1 /* ReactiveCocoa-Swift-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EB2659019FED42B00BE42D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB2659D19FED42B00BE42D1 /* Main.storyboard in Resources */,
+				5EB265A219FED42B00BE42D1 /* LaunchScreen.xib in Resources */,
+				5EB2659F19FED42B00BE42D1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB265A519FED42B00BE42D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB2658E19FED42B00BE42D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB265C719FEDB6A00BE42D1 /* LoginViewController.swift in Sources */,
+				5EB265C319FED79B00BE42D1 /* ReactiveCocoaBindings.swift in Sources */,
+				5EB265C519FED8DD00BE42D1 /* GestureRecognizerViewController.swift in Sources */,
+				5EB265CF19FEDED700BE42D1 /* NetworkViewController.swift in Sources */,
+				5EB2659819FED42B00BE42D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB265A319FED42B00BE42D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB265AE19FED42B00BE42D1 /* ReactiveCocoa_Swift_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EB265A919FED42B00BE42D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB2659119FED42B00BE42D1 /* ReactiveCocoa-Swift-Demo */;
+			targetProxy = 5EB265A819FED42B00BE42D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EB2659B19FED42B00BE42D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB2659C19FED42B00BE42D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EB265A019FED42B00BE42D1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB265A119FED42B00BE42D1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EB265AF19FED42B00BE42D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EB265B019FED42B00BE42D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EB265B219FED42B00BE42D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ash/bin/MBLTDev/submodules/ReactiveCocoa/External/LlamaKit/build/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ReactiveCocoa-Swift-Demo-elkamcluvedkducxopcackprlrzh/Build/Products/Debug",
+				);
+				INFOPLIST_FILE = "ReactiveCocoa-Swift-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EB265B319FED42B00BE42D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ash/bin/MBLTDev/submodules/ReactiveCocoa/External/LlamaKit/build/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ReactiveCocoa-Swift-Demo-elkamcluvedkducxopcackprlrzh/Build/Products/Debug",
+				);
+				INFOPLIST_FILE = "ReactiveCocoa-Swift-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5EB265B519FED42B00BE42D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ReactiveCocoa-Swift-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveCocoa-Swift-Demo.app/ReactiveCocoa-Swift-Demo";
+			};
+			name = Debug;
+		};
+		5EB265B619FED42B00BE42D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ReactiveCocoa-Swift-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveCocoa-Swift-Demo.app/ReactiveCocoa-Swift-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EB2658D19FED42B00BE42D1 /* Build configuration list for PBXProject "ReactiveCocoa-Swift-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB265AF19FED42B00BE42D1 /* Debug */,
+				5EB265B019FED42B00BE42D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB265B119FED42B00BE42D1 /* Build configuration list for PBXNativeTarget "ReactiveCocoa-Swift-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB265B219FED42B00BE42D1 /* Debug */,
+				5EB265B319FED42B00BE42D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EB265B419FED42B00BE42D1 /* Build configuration list for PBXNativeTarget "ReactiveCocoa-Swift-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB265B519FED42B00BE42D1 /* Debug */,
+				5EB265B619FED42B00BE42D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EB2658A19FED42B00BE42D1 /* Project object */;
+}

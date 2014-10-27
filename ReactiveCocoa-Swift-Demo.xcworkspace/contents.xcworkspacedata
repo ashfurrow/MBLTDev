@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:ReactiveCocoa-Swift-Demo/ReactiveCocoa-Swift-Demo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:submodules/ReactiveCocoa/ReactiveCocoa.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:submodules/ReactiveCocoa/External/LlamaKit/LlamaKit.xcodeproj">
+   </FileRef>
+</Workspace>
