@@ -1,1 +1,0 @@
-numbers.filter(isPrime)
