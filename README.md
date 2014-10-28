@@ -1,7 +1,7 @@
 MBLTDev
 =======
 
-Demo of using ReactiveCocoa with Swift at [MBLTDev 2014](http://mbltdev.ru).
+Demo of using ReactiveCocoa with Swift at [MBLTDev 2014](http://mbltdev.ru). Slides are available [online](https://speakerdeck.com/ashfurrow/functional-reactive-programming-in-swift).
 
 Instructions
 ----------------
