@@ -26,7 +26,7 @@ class NetworkViewController: UIViewController {
             let request = NSURLRequest(URL: url)
             let networkSignal = NSURLConnection.rac_sendAsynchronousRequest(request).deliverOn(RACScheduler.mainThreadScheduler())
             return networkSignal
-        }.map(toImage).doNext { (_) -> Void in
+        }.tryMap(toImage).doNext { (_) -> Void in
             println("Downloaded")
         }.catch { (error) -> RACSignal! in
             println("Encountered error: \(error)")
@@ -37,7 +37,7 @@ class NetworkViewController: UIViewController {
     }
 }
 
-func toImage(object: AnyObject!) -> AnyObject! {
+func toImage(object: AnyObject!, error: NSErrorPointer) -> AnyObject! {
     let tuple = object as RACTuple
     return UIImage(data: tuple.second as NSData)
 }
