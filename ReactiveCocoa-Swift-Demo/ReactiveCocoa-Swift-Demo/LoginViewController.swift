@@ -18,9 +18,8 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         
         let validEmailSignal = emailAddressTextField.rac_textSignal().map { (object) -> AnyObject! in
-            let string = object as NSString
-            let range: NSRange! = string.rangeOfString("@")
-            return range.location != NSNotFound
+            let string = object as String
+            return contains(string, "@")
         }
         
         let validPasswordSignal = passwordTextField.rac_textSignal().map { (object) -> AnyObject! in
